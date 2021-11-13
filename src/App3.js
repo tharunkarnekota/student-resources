@@ -1,5 +1,5 @@
 import React from 'react'
-import vjit2 from "./vjit6.png"
+import vjit2 from "./vjit2.png"
 import clubs2 from "./clubs3.png"
 import { Navbar, Container } from 'react-bootstrap'
 import "./App.css"
@@ -14,7 +14,7 @@ const App = () => {
 
       <Navbar className="pf">
         <Container>
-          <Navbar.Brand href="https://vjit.ac.in"><img src={vjit2} className="head" width="73%" height="73%" alt="vjit" /></Navbar.Brand>
+          <Navbar.Brand href="https://vjit.ac.in"><img src={vjit2} className="head" width="33%" height="33%" alt="vjit" /></Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
@@ -24,7 +24,7 @@ const App = () => {
         </Container>
       </Navbar>
 
-      <br /><br /><br /><br /><br /><br /><center><h2 style={{alignItems:"center"}}><b>-: Sudents Resources :-</b></h2></center><br /><br />
+      <br /><br /><br /><br /><br /><br /><center><h2><b>-: Sudents Resources :-</b></h2></center><br /><br />
 
       
       <center>
@@ -37,7 +37,7 @@ const App = () => {
                   
                   <div className = "col-md-4 sizee col movement" >
                   <div className="card" style={{"width": "28.5rem"}} >
-                  <img src={item.imgUrl} height="30%" width="20%" className="card-img-top" alt="img" />
+                  <img src={item.imgUrl} height="350" width="100" className="card-img-top" alt="img" />
                   <div className="card-body">
                       <h5 className="card-title">{item.title}</h5>
                       <p>{item.description}</p>
