@@ -37,12 +37,12 @@ p{
   
 }
 
-.headerr{
-  margin-left: 40%;
-  margin-bottom: -20px;
+.headerclub{
+  margin-left: 45%;
+  margin-bottom: -10px;
 }
 
-.pf{
+.logoss{
   position: fixed;
   background-color: rgb(227, 240, 252);
   width: 100%;
@@ -52,10 +52,9 @@ p{
 }
 
 .head{
-  margin-left: 20%;
+  margin-left: 15%;
   text-decoration: none;
 }
-
 .sizee{
   margin-bottom: 35px;
   

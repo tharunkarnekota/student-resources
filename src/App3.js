@@ -33,7 +33,6 @@ const App = () => {
       <div className = "row" >
           {details.map(item =>{ 
               return(
-                
                   
                   <div className = "col-md-4 sizee col movement" >
                   <div className="card" style={{"width": "28.5rem"}} >
@@ -47,8 +46,6 @@ const App = () => {
                   </div>
                   </div>
                  
-                
-
               )})}
       </div>
       <br /><br /><br />

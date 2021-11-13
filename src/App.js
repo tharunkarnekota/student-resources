@@ -4,37 +4,38 @@ import clubs2 from "./clubs3.png"
 import { Navbar, Container } from 'react-bootstrap'
 import "./App.css"
 
+
 import details from "./details.json"
 
 const App = () => {
 
-  return (
-
-    <div className="app">
-
-      <Navbar className="pf">
-        <Container>
-          <Navbar.Brand href="https://vjit.ac.in"><img src={vjit2} className="head" width="73%" height="73%" alt="vjit" /></Navbar.Brand>
-          <Navbar.Toggle />
-          <Navbar.Collapse className="justify-content-end">
-            <Navbar.Text>
-              <img className="headerr" src={clubs2} width="60%" height="60%" alt="clubs" />
-            </Navbar.Text>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-
-      <br /><br /><br /><br /><br /><br /><center><h2 style={{alignItems:"center"}}><b>-: Sudents Resources :-</b></h2></center><br /><br />
-
+  return ( 
+    
+    <div >
       
+      
+            <Navbar className="logoss">
+                <Container>
+                <Navbar.Brand href="https://vjit.ac.in" target="_blank"><img src={vjit2} className="head" width="97%" height="89%" alt="vjit" /></Navbar.Brand>
+                <Navbar.Toggle />
+                <Navbar.Collapse className="justify-content-end">
+                    <Navbar.Text>
+                    <img className="headerclub" src={clubs2} width="60%" height="60%" alt="clubs" />
+                    </Navbar.Text>
+                </Navbar.Collapse>
+                </Container>
+            </Navbar>
+
+            <br /><br /><br /><br /><br /><br />
+
       <center>
-        
-      
+        <h2 style={{alignItems:"center"}}><b>-: Sudents Resources :-</b></h2></center><br /><br />
+      <center>
+         
       <div className = "row" >
           {details.map(item =>{ 
               return(
                 
-                  
                   <div className = "col-md-4 sizee col movement" >
                   <div className="card" style={{"width": "28.5rem"}} >
                   <img src={item.imgUrl} height="30%" width="20%" className="card-img-top" alt="img" />
